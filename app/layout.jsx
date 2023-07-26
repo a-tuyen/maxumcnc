@@ -1,4 +1,5 @@
 import "@styles/globals.css";
+import Nav from "@components/Nav";
 
 export const metadata = {
   title: "Maxum CNC",
@@ -10,7 +11,11 @@ const RootLayout = ({ children }) => {
     <html lang="en">
       <body>
         <div>
-          <main>{children}</main>
+          <main>
+            <Nav />
+            
+            {children}
+          </main>
         </div>
       </body>
     </html>
