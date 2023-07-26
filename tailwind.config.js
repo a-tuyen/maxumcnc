@@ -7,11 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        boldHeading: ["Bebas Neue"],
+        heading: ["Oswald"],
+        banner: ["Kaushan Script"]
       },
+
+      colors: {
+        darkMain: '#393b3e',
+        main: '#4C4E52',
+        lightMain:'#d1d5db',
+        accent: '#039BC3', //waves blue
+
+
     },
   },
   plugins: [],
