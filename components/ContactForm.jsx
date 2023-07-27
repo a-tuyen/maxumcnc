@@ -5,7 +5,7 @@ const ContactForm = () => {
           <div className='flex flex-col justify-center'>
             <h1 className="font-heading text-3xl">Contact Us</h1>
             <p>Please fill out the form with your project details and we will be in touch</p>
-            <form name="Quote-Request" method="post">
+            <form name="Maxum-Contact" method="post" action="/" data-netlify="true">
               <input type="hidden" name="form-name" value="Maxum-Contact" />
               <div>
                 <label htmlFor="name">Name:</label>
