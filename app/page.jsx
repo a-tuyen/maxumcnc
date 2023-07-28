@@ -7,11 +7,13 @@ const Home = () => {
   return (
     <>
       <Image
-        src="https://user-images.githubusercontent.com/77664153/256354157-2c9f4248-5e41-48db-85c6-670654317e1d.jpeg"
+        src="https://user-images.githubusercontent.com/77664153/256866128-baa216aa-0a2c-43c3-9c88-f45806777531.png"
         width={0}
         height={0}
+        fill={true}
         sizes="100vw"
-        style={{ width: "100vw", height: "auto" }}
+        // style={{ width: "100vw", height: "auto", objectFit: "cover"}}
+        style={{objectFit: "cover"}}
         className="z[0]"
       />
       <div className="flex flex-col items-center text-white z-[1]">
