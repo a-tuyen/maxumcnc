@@ -1,9 +1,9 @@
 import React from 'react'
 
-const pages = () => {
+const success = () => {
   return (
     <div>Success!</div>
   )
 }
 
-export default pages
+export default success

@@ -8,9 +8,9 @@ const Nav = () => {
           <Image
             src="https://user-images.githubusercontent.com/77664153/256351395-ce3f5c6c-b1f9-410b-ae34-f521e9db7c01.svg" //White
             // src="https://user-images.githubusercontent.com/77664153/256351314-b52984da-fee3-4c65-af3e-6c4ca4c6efeb.svg"
-            width="200"
-            height="50"
-            className="mt-6 pt-6"
+            width="180"
+            height="40"
+            className="mt-4 pt-6"
           />
         </div>
       </nav>

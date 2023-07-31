@@ -1,11 +1,12 @@
 
 const ContactForm = () => {
     return (
-        <div className="flex text-black z-[40]">
-          <div className='flex flex-col justify-center'>
-            <h1 className="font-heading text-3xl">Contact Us</h1>
-            <p>Please fill out the form with your project details and we will be in touch</p>
-            <form name="Maxum-Contact" method="post" action="/" data-netlify="true">
+        <div className="flex flex-col justify-center items-center text-black z-[100]">
+          <div className='flex flex-col justify-center items-center'>
+            <h1 className="font-heading text-3xl py-8">Contact Us</h1>
+            <p className="pb-4">Please fill out the form with your project details and we will be in touch</p>
+           
+           <form name="Maxum-Contact" action="/success" method="post" data-netlify="true">
               <input type="hidden" name="form-name" value="Maxum-Contact" />
               <div>
                 <label htmlFor="name">Name:</label>

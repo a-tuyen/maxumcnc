@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-
 const Hero = () => {
   return (
     <div className="">
@@ -11,7 +10,6 @@ const Hero = () => {
         height={0}
         fill={true}
         sizes="100vw"
-        // style={{ width: "100vw", height: "auto", objectFit: "cover"}}
         style={{ objectFit: "cover" }}
         className="z[0]"
       />
@@ -23,7 +21,7 @@ const Hero = () => {
           Locally based in Burnaby, BC
         </p>
         <button className="absolute text-white font-boldHeading text-4xl tracking-wider top-[65%] z-[10] px-4 py-3 border-2 rounded-lg">
-          <Link href={"/"}>Contact US</Link>
+          <Link href={"/contact"}>Contact US</Link>
         </button>
       </div>
     </div>
