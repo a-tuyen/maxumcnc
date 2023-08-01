@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="">
+    <div className="flex justify-center text-right mt-[35%] md:mt-[20%] lg:mt-[10%]">
       <Image
         src="https://user-images.githubusercontent.com/77664153/257346453-d67a11e6-d931-4916-b70c-b16992b05322.png"
         width={0}
@@ -13,14 +13,14 @@ const Hero = () => {
         style={{ objectFit: "cover" }}
         className="z[0]"
       />
-      <div className="flex justify-center md:justify-end text-white text-center md:text-right md:pr-[17%] z-[100]">
-        <h1 className="absolute text-white font-boldHeading text-6xl tracking-wider top-[37%] z-[10]">
+      <div className="flex flex-col items-center justify-center text-white text-center z-[100]">
+        <h1 className="text-white font-boldHeading text-6xl tracking-wider top-[37%] z-[10]">
           Precision CNC services
         </h1>
-        <p className="absolute py-2 top-[55%] md:top-[50%] font-heading text-center text-2xl md:text-3xl text-white font-light z-[10]">
+        <p className="py-6 font-heading text-center text-2xl md:text-3xl text-white font-light z-[10]">
           Locally based in Burnaby, BC
         </p>
-        <button className="absolute text-white font-boldHeading text-4xl tracking-wider top-[65%] z-[10] px-4 py-3 border-2 rounded-lg">
+        <button className="text-white font-boldHeading text-4xl tracking-wider z-[10] px-4 py-2 border-2 rounded-lg">
           <Link href={"/contact"}>Contact US</Link>
         </button>
       </div>
