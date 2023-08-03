@@ -2,13 +2,15 @@ const ContactForm = () => {
   return (
     <div className="flex flex-col justify-center items-center text-black w-full">
       <div className='grid gap-6 mb-6 mt-[10%] mx-[20%] '>
-        <h1 className="font-heading text-3xl py-8">Contact Us</h1>
-        <p className="pb-4">Please fill out the form with your project details and we will be in touch</p>
+        <div className="flex justify-center">
+        <h1 className="font-heading text-3xl py-8">Send Us A Message</h1>
+        </div>
+        <p className="pb-4">Please fill out the form below and we will be in touch</p>
 
        <form name="Maxum-Contact" action="/success" method="post" data-netlify="true">
           <input type="hidden" name="form-name" value="Maxum-Contact" />
           <div className="border-black">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Name *</label>
             <input type="text" name="name" required />
           </div>
           <div>
@@ -16,19 +18,19 @@ const ContactForm = () => {
             <input type="text" name="company" />
           </div>
           <div>
-            <label htmlFor="phone">Phone Number</label>
+            <label htmlFor="phone">Phone Number *</label>
             <input type="tel" name="phone" required />
           </div>
           <div>
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email *</label>
             <input type="email" name="email" required />
           </div>
           <div>
-            <label htmlFor="project-details">Project Details</label>
+            <label htmlFor="project-details">Message *</label>
             <textarea name="project-details" required />
-          </div>
+          </div>      
           <div className="flex justify-center">
-          <button type="submit" className="bg-blue-500 w-[40%]">Send</button>
+          <button type="submit" className="bg-blue-500 hover:bg-blue-700 w-[40%]">Send</button>
           </div>
         </form>
       </div>
