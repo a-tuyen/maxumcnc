@@ -53,44 +53,63 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex justify-start w-full">
+        <div className="flex flex-col justify-start w-full">
+          <h3>Hours Of Operation</h3>
           <ul>
-            <li>Phone: 604-420-3731</li>
-            <li>Email: info@metaldist.com</li>
-            <li>Fax:604-420-3731</li>
-            <li></li>
+            <li>Mon - Thurs: 8am - 4pm</li>
+            <li>Fri: </li>
             <li></li>
             <li></li>
             <li></li>
           </ul>
         </div>
       </div>
+
       <div className="bg-black flex justify-evenly w-full">
-        <div className="bg-blue-500 rounded-full p-10">
-        <Image
-          src="https://user-images.githubusercontent.com/77664153/189387060-cabc9d81-b64d-466d-bf56-d5233f03e7fa.png"
-          width={100}
-          height={100}
-          alt="map icon"
-        />
+        <div className="text-white text-center">
+          <div className="bg-blue-500 rounded-full p-10">
+            <Image
+              src="https://user-images.githubusercontent.com/77664153/189387060-cabc9d81-b64d-466d-bf56-d5233f03e7fa.png"
+              width={100}
+              height={100}
+              alt="map icon"
+            />
+          </div>
+          <h1>Address</h1>
+          <p>7220 Winston St.</p>
+          <p>Burnaby, BC V5A 2G9</p>
         </div>
-        <div className="bg-blue-500 rounded-full p-10">
-        <Image
-          src="https://user-images.githubusercontent.com/77664153/189203263-d8200e4d-2aa4-4b03-b138-bc12c7e758f9.png"
-          width={100}
-          height={100}
-          alt="map icon"
-        />
+
+        <div className="text-white text-center">
+          <div className="bg-blue-500 rounded-full p-10">
+            <Image
+              src="https://user-images.githubusercontent.com/77664153/189203263-d8200e4d-2aa4-4b03-b138-bc12c7e758f9.png"
+              width={100}
+              height={100}
+              alt="map icon"
+            />
+          </div>
+          <h1>Email</h1>
+          <p>info@metaldist.com</p>
+     
         </div>
-        <div className="bg-blue-500 rounded-full p-10">
-        <Image
-          src="https://user-images.githubusercontent.com/77664153/189227458-6398c5cc-22ab-47ea-8149-cba5ba7d6f23.png"
-          width={100}
-          height={100}
-          alt="map icon"
-        />
+
+        <div className="text-white text-center">
+          <div className="bg-blue-500 rounded-full p-10">
+            <Image
+              src="https://user-images.githubusercontent.com/77664153/189227458-6398c5cc-22ab-47ea-8149-cba5ba7d6f23.png"
+              width={100}
+              height={100}
+              alt="map icon"
+            />
+          </div>
+          <h1>Phone</h1>
+          <p>604-420-3731</p>
+          <p>1-877-420-3731 (toll-free)</p>
         </div>
       </div>
+
+
     </div>
   );
 };
