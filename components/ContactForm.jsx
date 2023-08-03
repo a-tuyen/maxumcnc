@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const ContactForm = () => {
   return (
     <div className="flex flex-col justify-center items-center">
@@ -51,7 +53,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className= "flex justify-start w-full">
+        <div className="flex justify-start w-full">
           <ul>
             <li>Phone: 604-420-3731</li>
             <li>Email: info@metaldist.com</li>
@@ -60,9 +62,34 @@ const ContactForm = () => {
             <li></li>
             <li></li>
             <li></li>
-
           </ul>
-          </div>
+        </div>
+      </div>
+      <div className="bg-black flex justify-evenly w-full">
+        <div className="bg-blue-500 rounded-full p-10">
+        <Image
+          src="https://user-images.githubusercontent.com/77664153/189387060-cabc9d81-b64d-466d-bf56-d5233f03e7fa.png"
+          width={100}
+          height={100}
+          alt="map icon"
+        />
+        </div>
+        <div className="bg-blue-500 rounded-full p-10">
+        <Image
+          src="https://user-images.githubusercontent.com/77664153/189203263-d8200e4d-2aa4-4b03-b138-bc12c7e758f9.png"
+          width={100}
+          height={100}
+          alt="map icon"
+        />
+        </div>
+        <div className="bg-blue-500 rounded-full p-10">
+        <Image
+          src="https://user-images.githubusercontent.com/77664153/189227458-6398c5cc-22ab-47ea-8149-cba5ba7d6f23.png"
+          width={100}
+          height={100}
+          alt="map icon"
+        />
+        </div>
       </div>
     </div>
   );
