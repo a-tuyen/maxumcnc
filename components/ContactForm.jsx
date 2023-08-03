@@ -1,7 +1,7 @@
 const ContactForm = () => {
   return (
     <div className="flex flex-col justify-center items-center text-black w-full">
-      <div className='grid gap-6 mb-6 mt-[10%] mx-[20%]"'>
+      <div className='grid gap-6 mb-6 mt-[10%] mx-[20%] '>
         <h1 className="font-heading text-3xl py-8">Contact Us</h1>
         <p className="pb-4">Please fill out the form with your project details and we will be in touch</p>
 
@@ -27,7 +27,9 @@ const ContactForm = () => {
             <label htmlFor="project-details">Project Details</label>
             <textarea name="project-details" required />
           </div>
-          <button type="submit" className="bg-blue-500">Send</button>
+          <div className="flex justify-center">
+          <button type="submit" className="bg-blue-500 w-[40%]">Send</button>
+          </div>
         </form>
       </div>
     </div>
