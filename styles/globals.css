@@ -7,9 +7,19 @@
 html {
   scroll-behavior: smooth;
   font-family: "Archivo Narrow", sans-serif;
+  margin-top: 125px;
+  width: 100vw;
 }
 @layer base {
   
+  h1, h2, h3, h4, h5 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-6xl md:text-6xl font-boldHeading
+  }
+
   label {
     @apply block mb-2
   }

@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <>
-      <nav className="flex justify-center bg-black w-[100%]">
+    <nav className="fixed top-0 w-full z-40">
+      <div className="flex justify-center bg-black w-[100%]">
           <div className="flex justify-center items-center mt-0 pb-o mb-0 z-[100] w-[100%] h-[125px] bg-black">
             <Link href="/">
           <Image
@@ -16,8 +16,8 @@ const Nav = () => {
           />
           </Link>
         </div>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 };
 
