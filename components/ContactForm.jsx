@@ -2,14 +2,60 @@ import Image from "next/image";
 
 const ContactForm = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h1 className="my-8">Contact Us</h1>
+    <div className="flex flex-col items-center">
+      <h1 className="flex justify-center pt-16 bg-slate-400 w-full ">Contact Us</h1>
+      
+      <div className="bg-slate-400 flex justify-evenly w-full py-12">
+        <div className="text-white text-center">
+          <div className="bg-blue-500 rounded-full p-10">
+            <Image
+              src="https://user-images.githubusercontent.com/77664153/189387060-cabc9d81-b64d-466d-bf56-d5233f03e7fa.png"
+              width={100}
+              height={100}
+              alt="map icon"
+            />
+          </div>
+          <h1>Address</h1>
+          <p>7220 Winston St.</p>
+          <p>Burnaby, BC V5A 2G9</p>
+        </div>
 
-      <div className="flex bg-yellow-200 w-full justify-evenly">
+        <div className="text-white text-center">
+          <div className="bg-blue-500 rounded-full p-10">
+            <Image
+              src="https://user-images.githubusercontent.com/77664153/189203263-d8200e4d-2aa4-4b03-b138-bc12c7e758f9.png"
+              width={100}
+              height={100}
+              alt="email icon"
+            />
+          </div>
+          <h1 className="mt-10">Email</h1>
+          <p>info@metaldist.com</p>
+     
+        </div>
+
+        <div className="text-white text-center">
+          <div className="bg-blue-500 rounded-full p-10">
+            <Image
+              src="https://user-images.githubusercontent.com/77664153/189227458-6398c5cc-22ab-47ea-8149-cba5ba7d6f23.png"
+              width={100}
+              height={100}
+              alt="phone icon"
+            />
+          </div>
+          <h1>Phone</h1>
+          <p>604-420-3731</p>
+          <p>1-877-420-3731 (toll-free)</p>
+        </div>
+      </div>
+
+
+
+      <div className="flex flex-row justify-start w-full">
         <div className="flex flex-col justify-center items-center text-black my-10 w-full">
           <div className="grid gap-6 mb-6">
             <div className="flex justify-center">
-              <h1 className="font-heading text-3xl py-8">Send Us A Message</h1>
+              <h2>Send Us A Message</h2>
             </div>
             <p className="pb-4">
               Please fill out the form below and we will be in touch
@@ -53,62 +99,17 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-start w-full">
-          <h3>Hours Of Operation</h3>
+        <div className="flex flex-col items-start w-full mt-10">
+          <h2>Hours Of Operation</h2>
           <ul>
-            <li>Mon - Thurs: 8am - 4pm</li>
-            <li>Fri: </li>
-            <li></li>
+            <li>Monday - Thursday: 8am - 4pm</li>
+            <li>Friday: 8am - 3pm </li>
+            <li>Saturday - Sunday: Closed</li>
             <li></li>
             <li></li>
           </ul>
         </div>
       </div>
-
-      <div className="bg-black flex justify-evenly w-full">
-        <div className="text-white text-center">
-          <div className="bg-blue-500 rounded-full p-10">
-            <Image
-              src="https://user-images.githubusercontent.com/77664153/189387060-cabc9d81-b64d-466d-bf56-d5233f03e7fa.png"
-              width={100}
-              height={100}
-              alt="map icon"
-            />
-          </div>
-          <h1>Address</h1>
-          <p>7220 Winston St.</p>
-          <p>Burnaby, BC V5A 2G9</p>
-        </div>
-
-        <div className="text-white text-center">
-          <div className="bg-blue-500 rounded-full p-10">
-            <Image
-              src="https://user-images.githubusercontent.com/77664153/189203263-d8200e4d-2aa4-4b03-b138-bc12c7e758f9.png"
-              width={100}
-              height={100}
-              alt="map icon"
-            />
-          </div>
-          <h1>Email</h1>
-          <p>info@metaldist.com</p>
-     
-        </div>
-
-        <div className="text-white text-center">
-          <div className="bg-blue-500 rounded-full p-10">
-            <Image
-              src="https://user-images.githubusercontent.com/77664153/189227458-6398c5cc-22ab-47ea-8149-cba5ba7d6f23.png"
-              width={100}
-              height={100}
-              alt="map icon"
-            />
-          </div>
-          <h1>Phone</h1>
-          <p>604-420-3731</p>
-          <p>1-877-420-3731 (toll-free)</p>
-        </div>
-      </div>
-
 
     </div>
   );
