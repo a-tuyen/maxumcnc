@@ -18,8 +18,10 @@ module.exports = {
         main: '#4C4E52',
         lightMain:'#d1d5db',
         accent1: '#4081A9',
+        accent1Light: '#8cb3cb',
         accent2: '#FF924E',
-        
+        accent2Light: '#ffdec9'
+
 
 
     },
