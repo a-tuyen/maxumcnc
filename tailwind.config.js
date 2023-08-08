@@ -17,7 +17,9 @@ module.exports = {
         darkMain: '#393b3e',
         main: '#4C4E52',
         lightMain:'#d1d5db',
-        accent: '#039BC3', //waves blue
+        accent1: '#4081A9',
+        accent2: '#FF924E',
+        
 
 
     },
