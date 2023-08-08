@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const contact = () => {
   return (
-    <div className="flex flex-col items-center bg-red-500">
+    <div className="flex flex-col items-center">
       <div className="w-full">
         <h1 className="flex justify-center pt-16 bg-slate-400 w-full text-white">
           Contact Us
         </h1>
-        <div className="bg-slate-400 grid grid-cols-3 w-full py-12">
+        <div className="bg-slate-400 grid grid-cols-4 w-full py-12">
           <div className="flex flex-col items-center text-white text-center">
             <div className="bg-blue-500 rounded-full p-10">
               <Image
@@ -48,6 +48,18 @@ const contact = () => {
             <h1 className="my-8">Phone</h1>
             <p className="text-lg">604-420-3731</p>
             <p className="text-lg">1-877-420-3731 (toll-free)</p>
+          </div>
+          <div className="flex flex-col items-center text-white text-center">
+            <div className="bg-blue-500 rounded-full p-10">
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/259250653-05dc691f-4a26-46bf-8bf2-db31f9a4ea90.png"
+                width={100}
+                height={100}
+                alt="fax icon"
+              />
+            </div>
+            <h1 className="my-8">Fax</h1>
+            <p className="text-lg">604-420-9240</p>
           </div>
         </div>
       </div>
