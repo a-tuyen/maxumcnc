@@ -6,15 +6,15 @@ const ContactForm = () => {
     <>
 
 
-      <div className="flex flex-row justify-start w-full">
+      <div className="flex flex-col md:flex-row justify-start w-full">
         <div className="flex flex-col justify-center items-center text-black my-10 w-full">
-          <div className="grid gap-6 mb-6">
+          <div className="grid gap-6 mb-6 w-[80%]">
             <div className="flex justify-center">
               <h2>Send Us A Message</h2>
             </div>
-            <p className="pb-4">
+            {/* <p className="pb-4">
               Please fill out the form below and we will be in touch
-            </p>
+            </p> */}
             <form
               name="Maxum-Contact"
               action="/success"
@@ -22,7 +22,7 @@ const ContactForm = () => {
               data-netlify="true"
             >
               <input type="hidden" name="form-name" value="Maxum-Contact" />
-              <div className="border-black">
+              <div>
                 <label htmlFor="name">Name *</label>
                 <input type="text" name="name" required />
               </div>
@@ -45,7 +45,7 @@ const ContactForm = () => {
               <div className="flex justify-center mt-4">
                 <button
                   type="submit"
-                  className="bg-[#FF924E] hover:bg-[#4081A9] w-[40%]"
+                  className="bg-accent2 hover:bg-[#e58346] w-[40%]"
                 >
                   Send
                 </button>
@@ -54,9 +54,11 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center w-full mt-10">
+        <div className="flex flex-col items-center justify-start mt-40 w-full">
+          <p className="mb-6 text-3xl">We would love to hear from you! </p>
+          <p className="text-xl text-center mb-16 w-[80%]">Send us a message or contact us via one of the methods below and we will get back to you.</p>
           <h2>Hours Of Operation</h2>
-          <ul>
+          <ul className="text-center text-xl">
             <li>Monday - Thursday: 8am - 4pm</li>
             <li>Friday: 8am - 3pm </li>
             <li>Saturday - Sunday: Closed</li>
