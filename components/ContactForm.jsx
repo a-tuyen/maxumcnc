@@ -4,17 +4,13 @@ const ContactForm = () => {
   return (
     // <div className="flex flex-col items-center bg-red-500">
     <>
-
-
-      <div className="flex flex-col md:flex-row justify-start w-full">
+      <div className="flex flex-col-reverse md:flex-row justify-start w-full">
         <div className="flex flex-col justify-center items-center text-black my-10 w-full">
-          <div className="grid gap-6 mb-6 w-[80%]">
+          <div className="grid gap-6 mb-6 w-[90%] bg-[#d8e5ed] p-4 rounded-xl">
             <div className="flex justify-center">
               <h2>Send Us A Message</h2>
             </div>
-            {/* <p className="pb-4">
-              Please fill out the form below and we will be in touch
-            </p> */}
+
             <form
               name="Maxum-Contact"
               action="/success"
@@ -45,7 +41,7 @@ const ContactForm = () => {
               <div className="flex justify-center mt-4">
                 <button
                   type="submit"
-                  className="bg-accent1 hover:bg-[#2c5a76] w-[40%]"
+                  className="bg-accent2 hover:bg-[#b26636] w-[40%]"
                 >
                   Send
                 </button>
@@ -54,19 +50,28 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-start mt-40 w-full">
-          <p className="mb-6 text-3xl">We would love to hear from you! </p>
-          <p className="text-xl text-center mb-16 w-[80%]">Send us a message or contact us via one of the methods below and we will get back to you.</p>
-          <h2>Hours Of Operation</h2>
-          <ul className="text-center text-xl">
-            <li>Monday - Thursday: 8am - 4pm</li>
-            <li>Friday: 8am - 3pm </li>
-            <li>Saturday - Sunday: Closed</li>
-            <li>Stat Holidays: Closed</li>
-          </ul>
+        <div className="flex flex-col items-center justify-start w-full mt-20">
+          <div className="flex flex-col b items-center justify-center">
+            <p className="mb-10 md:mb-6 text-3xl">
+              We would love to hear from you!
+            </p>
+            <p className="text-xl text-center mb-10 md:mb-16 w-[80%]">
+              Send us a message or contact us via one of the methods below and
+              we will get back to you.
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center bg-accent2Light w-[90%] h-[51%] rounded-xl">
+            <h2>Hours Of Operation</h2>
+            <ul className="text-center text-xl mb-10">
+              <li>Monday - Thursday: 8am - 4pm</li>
+              <li>Friday: 8am - 3pm </li>
+              <li>Saturday - Sunday: Closed</li>
+              <li>Stat Holidays: Closed</li>
+            </ul>
+          </div>
         </div>
       </div>
-   </>
+    </>
   );
 };
 
