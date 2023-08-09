@@ -45,7 +45,7 @@ const ContactForm = () => {
               <div className="flex justify-center mt-4">
                 <button
                   type="submit"
-                  className="bg-accent2 hover:bg-[#e58346] w-[40%]"
+                  className="bg-accent1 hover:bg-[#2c5a76] w-[40%]"
                 >
                   Send
                 </button>

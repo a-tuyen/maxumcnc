@@ -12,7 +12,7 @@ const Nav = () => {
             // src="https://user-images.githubusercontent.com/77664153/256351314-b52984da-fee3-4c65-af3e-6c4ca4c6efeb.svg"
             width="180"
             height="40"
-            className="mt-4 pt-6"
+            className="mt-4 pl-4 pt-6"
           />
           </Link>
         </div>
