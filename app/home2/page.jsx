@@ -8,7 +8,7 @@ const Home2 = () => {
     <>
       <Nav2 />
       <Hero2 />
-      <div>
+      <div className="w-full h-[250px]">
         <h1>Our Capabilities</h1>
       </div>
     </>
