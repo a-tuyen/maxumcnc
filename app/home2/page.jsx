@@ -1,10 +1,13 @@
 import ContactForm from "@components/ContactForm";
-import Hero from "@components/Hero";
+import Hero2 from "@components/Hero2";
+import Nav2 from "@components/Nav2"
+
 
 const Home2 = () => {
   return (
     <>
-      <Hero />
+    <Nav2 />
+      <Hero2 />
     </>
   );
 };
