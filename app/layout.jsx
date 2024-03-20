@@ -4,6 +4,9 @@ import Nav from "@components/Nav";
 export const metadata = {
   title: "Maxum CNC",
   description: "Precision Machining",
+  icons: {
+    icon: "/images/maxum-favicon.png",
+  },
 };
 
 const RootLayout = ({ children }) => {
