@@ -14,8 +14,8 @@ const Hero2 = () => {
         style={{ objectFit: "cover" }}
         className="z[0]"
       />
-      <div className="flex flex-col items-center bg-black/30 text-white text-center z-[100] py-8 px-[75px] md:px-[300px] w=full">
-        <h1 className="text-white font-boldHeading text-6xl tracking-wider top-[30%] z-[10]">
+      <div className="flex flex-col items-center bg-black/30 text-white text-center z-[50] py-8 px-[75px] md:px-[300px] w=full">
+        <h1 className="text-white font-boldHeading text-6xl tracking-wider top-[30%] z-[20]">
           Precision Machining services
         </h1>
         <p className="py-6 font-heading text-center text-2xl md:text-3xl text-white font-light z-[10]">

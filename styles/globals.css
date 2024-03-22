@@ -17,12 +17,16 @@ html {
   }
 
   h1 {
-    @apply text-6xl md:text-6xl font-boldHeading font-bold
+    @apply text-6xl font-boldHeading font-bold tracking-wide
   }
 
   h2 {
-    @apply text-3xl py-8 font-heading
+    @apply text-3xl py-8 font-heading font-medium
   }
+
+  /* h3 {
+    @apply text-3xl py-8 font-heading font-extralight
+  } */
 
 
   label {
