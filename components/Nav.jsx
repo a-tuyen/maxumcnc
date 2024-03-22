@@ -51,7 +51,7 @@ const Nav = () => {
               width="120"
               height="80"
               alt="light logo"
-              className={logoDark ? "hidden" : "fixed top-[7px] left-[45%]"}
+              className={logoDark ? "hidden" : "fixed top-[7px] left-[46%]"}
             />
 
             {/* Dark Logo  */}
@@ -61,7 +61,7 @@ const Nav = () => {
               width="120"
               height="80"
               alt="dark logo"
-              className={logoDark ? "fixed top-[7px] left-[45%]" : "hidden"}
+              className={logoDark ? "fixed top-[7px] left-[46%]" : "hidden"}
             />
           </Link>
 
@@ -143,10 +143,10 @@ const Nav = () => {
                 </div>
               </div>
             </li> */}
-
+{/* 
             <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
               <Link href="/contact">Contact Us</Link>
-            </li>
+            </li> */}
           </ul>
 
           {/* Mobile Button */}
