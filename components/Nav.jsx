@@ -73,7 +73,7 @@ const Nav = () => {
               <Link href="/">Home</Link>
             </li> */}
 
-            {/* <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
+            <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
               <Link href="/about">About Us</Link>
             </li>
 
@@ -83,7 +83,7 @@ const Nav = () => {
 
             <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
               <Link href="/technology">Our Technologies</Link>
-            </li> */}
+            </li>
 
             {/* <li class=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]">
               <div class="relative group">
@@ -143,10 +143,10 @@ const Nav = () => {
                 </div>
               </div>
             </li> */}
-{/* 
+
             <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
               <Link href="/contact">Contact Us</Link>
-            </li> */}
+            </li>
           </ul>
 
           {/* Mobile Button */}

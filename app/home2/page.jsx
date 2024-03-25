@@ -10,8 +10,9 @@ const Home2 = () => {
   return (
     <>
       <Hero2 />
-      <div className="w-full h-[1000px]">
-        <h1 className="mt-[100px]">Our Capabilities</h1>
+      <div className="flex flex-col w-full h-[1000px]">
+        <h1 className="mt-[200px]">Our Capabilities</h1>
+        <div>With 75 years in the Metal Fabrication industry, Maxum CNC is a trusted manufacturer for intricate, detailed and complex metal components</div>
       </div>
     </>
   );
