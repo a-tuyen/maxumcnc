@@ -9,7 +9,7 @@ const Technology = () => {
     <div>
             <Hero2
       heading={"OUR TECHNOLOGIES"}
-      message={""}
+      message={"We have top of the line CNC machines to get you from start to finish"}
       img={"/images/maxum-tech.png"} />
     <div className='flex flex-col items-center mt-[300px]'>
         {/* <h1>Our Technologies</h1> */}
@@ -35,10 +35,13 @@ const Technology = () => {
         <div>Best selling vertical machine in the World</div>
 
         <h2>YAMA SEIKI<span className='font-extralight'>   GA-2600</span></h2>
-        <div>x-axis - 30&quot; </div>
-        <div>y-axis - 16&quot; </div>
-        <div>z-axis - 20&quot; </div>
-        <div>Best selling vertical machine in the World</div>
+        <div>Max Turning Diameter 13.77&quot; </div>
+        <div>Max Length 23.85&quot; </div>
+        <div>2-Axis CNC Lathe</div>
+
+
+        <h2>SOFTWARE</h2>
+        <div>Autodesk Fusion 360</div>
     </div>
     </div>
 

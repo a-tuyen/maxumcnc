@@ -78,7 +78,7 @@ const Nav = () => {
             </li>
 
             <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
-              <Link href="/about">Our Process</Link>
+              <Link href="/process">Our Process</Link>
             </li>
 
             <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
