@@ -1,12 +1,18 @@
 
 
 import React from 'react'
+import Hero2 from "@components/Hero2";
+
 
 const Technology = () => {
   return (
     <div>
-    <div className='flex flex-col items-center w-[100%] border-4 border-red-300'>
-        <h1>Our Technologies</h1>
+            <Hero2
+      heading={"OUR TECHNOLOGIES"}
+      message={""}
+      img={"/images/maxum-tech.png"} />
+    <div className='flex flex-col items-center mt-[300px]'>
+        {/* <h1>Our Technologies</h1> */}
         <h2>CNC Milling Machines</h2>
         <h2>DOOSAN<span className='font-extralight '>  DNM 4500</span></h2>
         <div>x-axis - 31.5&quot; </div>

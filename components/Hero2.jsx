@@ -1,12 +1,15 @@
 import Image from "next/image";
+// import bg1 from "../public/images/maxum-home";
 import Link from "next/link";
+import Home from "@app-delete/page";
 
-const Hero2 = () => {
+const Hero2 = ({heading, message, img}) => {
   return (
     <div className="flex flex-col items-center text-right mt-[15%] md:mt-[10%] lg:mt-[8%] w-[100%]">
       <Image
         // src="https://user-images.githubusercontent.com/77664153/257346453-d67a11e6-d931-4916-b70c-b16992b05322.png"
-        src="https://user-images.githubusercontent.com/77664153/256884639-d6d1c43e-bd5f-4c05-b8ea-857fa5087abc.png"
+        // src="https://user-images.githubusercontent.com/77664153/256884639-d6d1c43e-bd5f-4c05-b8ea-857fa5087abc.png"
+        src={img}
         width={0}
         height={0}
         fill={true}
@@ -14,17 +17,17 @@ const Hero2 = () => {
         style={{ objectFit: "cover" }}
         className="z[0]"
       />
-      <div className="flex flex-col items-center bg-black/30 text-white text-center z-[50] py-8 px-[75px] md:px-[300px] w=full">
+      <div className="flex flex-col items-center bg-black/30 text-white text-center z-[50] py-8 px-[75px] md:px-[250px] w=full">
         <h1 className="text-white font-boldHeading text-6xl tracking-wider top-[30%] z-[20]">
-          Precision Machining services
+          {heading}
         </h1>
         <p className="py-6 font-heading text-center text-2xl md:text-3xl text-white font-light z-[10]">
-          Bringing your drawings to life
+          {message}
         </p>
 
-        <button className="text-white font-boldHeading text-4xl tracking-wider z-[10]  px-4 py-2 border-2 rounded-lg hover:bg-white hover:text-gray-500">
+        {/* <button className="text-white font-boldHeading text-4xl tracking-wider z-[10]  px-4 py-2 border-2 rounded-lg hover:bg-white hover:text-gray-500">
           <Link href={"/contact"}>Contact US</Link>
-        </button>
+        </button> */}
 
       </div>
 
