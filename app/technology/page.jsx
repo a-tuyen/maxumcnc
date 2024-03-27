@@ -15,10 +15,11 @@ const Technology = () => {
         {/* <h1>Our Technologies</h1> */}
         <h2>CNC Milling Machines</h2>
         <h2>DOOSAN<span className='font-extralight '>  DNM 4500</span></h2>
-        <div>x-axis - 31.5&quot; </div>
-        <div>y-axis - 15.75&quot; </div>
-        <div>z-axis - 18.&quot;"</div>
-        <div>Reliable, high precision, stable Vertical Milling Center</div>
+        <div className='tracking-wide'>X - AXIS TRAVEL - 31.5&quot; </div>
+        <div className='tracking-wide'>Y - AXIS TRAVEL - 15.75&quot; </div>
+        <div className='tracking-wide'>Z - AXIS TRAVEL - 18.9&quot;"</div>
+        <div className='tracking-wide'>MAX WORKPIECE WEIGHT - 1323 lbs</div>
+        <div className='tracking-wide'>Reliable, high precision, stable Vertical Milling Center</div>
 
         <h2>HAAS <span className='font-extralight'>  VF2</span></h2>
         <div>x-axis - 30&quot; </div>
@@ -35,9 +36,10 @@ const Technology = () => {
         <div>Best selling vertical machine in the World</div>
 
         <h2>YAMA SEIKI<span className='font-extralight'>   GA-2600</span></h2>
+        <div>2-Axis CNC Lathe</div>
         <div>Max Turning Diameter 13.77&quot; </div>
         <div>Max Length 23.85&quot; </div>
-        <div>2-Axis CNC Lathe</div>
+        
 
 
         <h2>SOFTWARE</h2>
