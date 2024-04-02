@@ -24,9 +24,9 @@ html {
     @apply text-3xl py-8 font-heading font-medium
   }
 
-  /* h3 {
-    @apply text-3xl py-8 font-heading font-extralight
-  } */
+div {
+  @apply tracking-wide
+}
 
 
   label {

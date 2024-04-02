@@ -7,7 +7,7 @@ const Process = () => {
            <Hero2
       heading={"OUR PROCESS"}
       message={"How to get started with us"}
-      img={"/images/maxum-home.png"} />
+      img={"/images/maxum-process-tall.png"} />
     <div>Process</div>
     </>
   )
