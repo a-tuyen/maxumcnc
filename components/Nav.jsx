@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState("#000000");
+  const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
   const [logoDark, setLogoDark] = useState(false);
 
@@ -26,8 +26,8 @@ const Nav = () => {
         setTextColor("#52525b");
         setLogoDark(true);
       } else {
-        // setColor("rgba(0, 0, 0, 0.2)");
-        setColor("#000000");
+        setColor("rgba(0, 0, 0, 0.2)");
+        // setColor("#000000");
         setTextColor("#d4d4d8");
         setLogoDark(false);
       }
