@@ -21,7 +21,7 @@ html {
   }
 
   h2 {
-    @apply text-3xl py-8 font-heading font-medium
+    @apply text-4xl font-heading font-medium
   }
 
 div {

@@ -12,21 +12,21 @@ const Technology = () => {
         img={"/images/maxum-tech-tall.png"}
       />
       <div className="flex flex-col items-center mt-[300px]">
-        {/* <h1>Our Technologies</h1> */}
+
         <h1 className="text-md">CNC Milling Machines</h1>
 
-        <div className="flex justify-between items-center border-y-1 border-black w-[50%]">
-          <div className="w-[50%]">
-            <h2 className="pb-0">
-              DOOSAN<span className="font-extralight"> DNM 4500</span>
+        <div className="flex flex-col items-center md:flex-row md:justify-between py-4 my-4 border-y-[1.5px] border-black w-[90%] lg:w-[50%]">
+          <div className="w-[50%] flex flex-col items-center md:items-start">
+            <h2 className="flex flex-col md:flex-row md:items-center pb-3 text-center">
+              DOOSAN<span className="font-extralight pl-2">DNM 4500</span>
             </h2>
-            <div className="tracking-wide italic">
+            <div className="tracking-wide italic text-center md:text-left mb-4">
               Reliable, high precision, stable Vertical Milling Center with a
               direct-coupled spindle for higher productivity
             </div>
           </div>
 
-          <ul className="list-none">
+          <ul className="list-none text-center md:text-left">
             <li>X - AXIS TRAVEL - 31.5&quot;</li>
             <li>Y - AXIS TRAVEL - 15.75&quot;</li>
             <li>Z - AXIS TRAVEL - 18.9&quot;"</li>
@@ -45,6 +45,7 @@ const Technology = () => {
         <div>X - AXIS TRAVEL - 30&quot; </div>
         <div>Y - AXIS TRAVEL - 16&quot; </div>
         <div>Z - AXIS TRAVEL - 20&quot; </div>
+        <div>MAX WORKPIECE WEIGHT - 3000 lbs</div>
         <div>Best selling vertical machine in the World</div>
         <div>Equipped with Pallet Changer for continuous production</div>
 
