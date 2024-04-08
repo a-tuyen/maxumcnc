@@ -2,6 +2,7 @@
 
 import ContactForm from "@components/ContactForm";
 import Hero2 from "@components/Hero2";
+import Link from "next/link";
 
 const Home2 = () => {
   return (
@@ -19,6 +20,13 @@ const Home2 = () => {
         loop
         className="absolute z[0] top-0 left-0 object-fill h-full w-full"
       />
+
+      {/* <button className="z-[100]">Contact us</button> */}
+
+      <button className="text-white font-boldHeading text-4xl tracking-wider z-[100]  px-4 py-2 border-2 rounded-lg hover:bg-white hover:text-gray-500">
+        <Link href={"/contact"}>Contact US</Link>
+      </button>
+
       <div className="flex flex-col w-full h-[1000px]">
         <h1 className="mt-[200px]">Our Capabilities</h1>
         <div>

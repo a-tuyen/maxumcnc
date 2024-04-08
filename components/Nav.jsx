@@ -74,18 +74,18 @@ const Nav = () => {
             {/* <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]">
               <Link href="/">Home</Link>
             </li> */}
-
+{/* 
             <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
               <Link href="/about">About Us</Link>
-            </li>
-
+            </li> */}
+{/* 
             <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
               <Link href="/process">Our Process</Link>
-            </li>
+            </li> */}
 
-            <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
+            {/* <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
               <Link href="/technology">Our Technologies</Link>
-            </li>
+            </li> */}
 
             {/* <li class=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]">
               <div class="relative group">
@@ -174,12 +174,12 @@ const Nav = () => {
             <div
               className={
                 nav
-                  ? "md:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-accent z-[10] text-center ease-in duration-300"
-                  : "md:hidden absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-accent z-[10] text-center ease-in duration-300"
+                  ? "md:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-black z-[10] text-center ease-in duration-300"
+                  : "md:hidden absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-black z-[10] text-center ease-in duration-300"
               }
             >
               <ul>
-                <li
+                {/* <li
                   onClick={handleNav}
                   className="p-4 text-4xl hover:text-gray-500"
                 >
@@ -196,13 +196,13 @@ const Nav = () => {
                   className="p-4 text-4xl hover:text-gray-500"
                 >
                   <Link href="/products">Products</Link>
-                </li>
-                <li
+                </li> */}
+                {/* <li
                   onClick={handleNav}
                   className="p-4 text-4xl hover:text-gray-500"
                 >
-                  <Link href="/technicalInfo">Technical Info</Link>
-                </li>
+                  <Link href="/technology">Our Technologies</Link>
+                </li> */}
                 {/* <li
                 onClick={handleNav}
                 className="p-4 text-4xl hover:text-gray-500"
