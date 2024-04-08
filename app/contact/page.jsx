@@ -15,7 +15,7 @@ const contact = () => {
           <div className="flex flex-col items-center text-white text-center">
             <div className="bg-accent2 rounded-full p-10 mt-20 md:mt-0">
               <Image
-                src="https://user-images.githubusercontent.com/77664153/259216521-a242cf3a-72be-4c76-b70d-a39967a2947c.png"
+                src="/images/maxum-map.png"
                 width={100}
                 height={100}
                 alt="map icon"
@@ -29,7 +29,7 @@ const contact = () => {
           <div className="flex flex-col items-center text-white text-center">
             <div className="bg-accent2 rounded-full p-10 mt-20 md:mt-0">
               <Image
-                src="https://user-images.githubusercontent.com/77664153/259215682-e6ed4e45-a152-44cf-bfe8-948345475e16.png"
+               src="/images/maxum-mail.png"
                 width={90}
                 height={100}
                 alt="email icon"
@@ -42,7 +42,7 @@ const contact = () => {
           <div className="flex flex-col items-center text-white text-center">
             <div className="bg-accent2 rounded-full p-10 mt-20 md:mt-0">
               <Image
-                src="https://user-images.githubusercontent.com/77664153/259216034-54a5b4b3-7e62-4670-9806-76398237d6f6.png"
+                src="/images/maxum-phone.png"
                 width={100}
                 height={100}
                 alt="phone icon"
@@ -55,7 +55,7 @@ const contact = () => {
           <div className="flex flex-col items-center text-white text-center">
             <div className="bg-accent2 rounded-full p-10 mt-20 md:mt-0">
               <Image
-                src="https://user-images.githubusercontent.com/77664153/259250653-05dc691f-4a26-46bf-8bf2-db31f9a4ea90.png"
+                src="/images/maxum-fax.png"
                 width={100}
                 height={100}
                 alt="fax icon"

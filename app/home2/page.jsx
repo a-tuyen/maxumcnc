@@ -8,7 +8,7 @@ const Home2 = () => {
     <>
       <Hero2
         heading={"PRECISION CNC MACHINING"}
-        message={"Located in Burnaby, BC"}
+        message={"Specializing in Lead (Pb), Zinc (Zn) and Aluminum (Al)"}
         img={"/images/maxum-home.png"}
       />
 

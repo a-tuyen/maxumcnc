@@ -5,9 +5,9 @@ const Technology = () => {
   return (
     <div>
       <Hero2
-        heading={"OUR TECHNOLOGIES"}
+        heading={"OUR EQUIPMENT"}
         message={
-          "We have top of the line CNC machines to get you from start to finish"
+          "We have top of the line CNC machines and a fully equippped machine shop to get you from start to finish"
         }
         img={"/images/maxum-tech-tall.png"}
       />
@@ -94,10 +94,27 @@ const Technology = () => {
           </ul>
         </div>
 
-
-
         <h1 className="py-8">SOFTWARE</h1>
-        <div>Autodesk Fusion 360</div>
+        {/* <h2 className="flex flex-col md:flex-row md:items-center pb-3 text-center">
+          Autodesk<span className="font-extralight pl-2">Fusion 360</span>
+        </h2> */}
+
+<div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] mb-4 border-y-[1.5px] border-black w-[90%] lg:w-[68%]">
+          <div className="w-[70%] flex flex-col items-center md:items-start">
+            <h2 className="flex flex-col md:flex-row md:items-center pb-3 text-center">
+              Autodesk<span className="font-extralight pl-2">Fusion 360</span>
+            </h2>
+            <div className="tracking-wide italic text-center w-[70%] pb-2 md:pb-0 md:text-left">
+            </div>
+          </div>
+
+          <ul className="list-none text-center md:text-left">
+            <li>SUPPORTEED FILES: STEP and 3MF</li>
+            {/* <li>MAX LENGTH - 23.85&quot;</li>
+            <li>CHUCK CAPACITY - 10&quot;</li>
+            <li>MAX LOAD - 506 lbs</li> */}
+          </ul>
+        </div>
       </div>
     </div>
   );
