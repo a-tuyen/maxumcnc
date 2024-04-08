@@ -29,7 +29,7 @@ const Technology = () => {
           <ul className="list-none text-center md:text-left">
             <li>X - AXIS TRAVEL - 31.5&quot;</li>
             <li>Y - AXIS TRAVEL - 15.75&quot;</li>
-            <li>Z - AXIS TRAVEL - 18.9&quot;"</li>
+            <li>Z - AXIS TRAVEL - 18.9&quot;</li>
             <li>MAX LOAD - 1323 lbs</li>
           </ul>
         </div>
