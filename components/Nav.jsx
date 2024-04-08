@@ -22,14 +22,16 @@ const Nav = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 450) {
-        setColor("#ffffff");
-        setTextColor("#52525b");
-        setLogoDark(true);
+        // setColor("#ffffff");
+        setColor("#000000");
+        // setTextColor("#52525b");
+        setTextColor("#ffffff");
+        // setLogoDark(true);
       } else {
         setColor("rgba(0, 0, 0, 0.2)");
         // setColor("#000000");
         setTextColor("#d4d4d8");
-        setLogoDark(false);
+        // setLogoDark(false);
       }
     };
     window.addEventListener("scroll", changeColor);
