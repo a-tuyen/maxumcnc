@@ -12,8 +12,8 @@ const Technology = () => {
         img={"/images/maxum-tech-tall.png"}
       />
 
-      <div className="flex flex-col items-center mt-[300px]">
-        <h1 className="text-md mb-8">CNC Milling Machines</h1>
+      <div className="flex flex-col items-center mt-[150px]">
+        <h1 className="text-md mb-8 text-center">CNC Milling Machines</h1>
 
         <div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] border-y-[1.5px] border-black w-[90%] lg:w-[68%]">
           <div className="w-[70%] flex flex-col items-center md:items-start">
@@ -53,7 +53,7 @@ const Technology = () => {
           </ul>
         </div>
 
-        <h1 className="text-md mt-8 mb-8">CNC LATHES</h1>
+        <h1 className="text-md mt-8 mb-8 text-center">CNC LATHES</h1>
 
         <div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] border-y-[1.5px] border-black w-[90%] lg:w-[68%]">
           <div className="w-[70%] flex flex-col items-center md:items-start">
@@ -94,7 +94,7 @@ const Technology = () => {
           </ul>
         </div>
 
-        <h1 className="py-8">SOFTWARE</h1>
+        <h1 className="py-8 text-center">SOFTWARE</h1>
         {/* <h2 className="flex flex-col md:flex-row md:items-center pb-3 text-center">
           Autodesk<span className="font-extralight pl-2">Fusion 360</span>
         </h2> */}
