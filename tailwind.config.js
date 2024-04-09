@@ -10,7 +10,8 @@ module.exports = {
       fontFamily: {
         boldHeading: ["Bebas Neue"],
         heading: ["Oswald"],
-        banner: ["Kaushan Script"]
+        banner: ["Kaushan Script"],
+        fancy: ["Train One"]
       },
 
       colors: {
