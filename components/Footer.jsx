@@ -9,7 +9,7 @@ import { GrMapLocation } from "react-icons/gr";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-center lg:justify-between bg-black h-[15%] lg:h-[100px] w-[100%] z-[100]">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-between bg-black h-[15%] lg:h-[100px] w-[100%] z-0">
         <div className="lg:w-[75%]">
         <h4 className="text-white text-xl lg:text-2xl tracking-wider font-banner font-thin text-center lg:text-left py-4 lg:pt-1 lg:pb-2 lg:px-4">
         <Link href="/contact">We Ship Worldwide! Contact Us Today:</Link>

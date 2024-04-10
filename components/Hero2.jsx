@@ -7,8 +7,6 @@ const Hero2 = ({heading, message, img}) => {
   return (
     <div className="flex flex-col items-center text-right mt-[15%] md:mt-[10%] lg:mt-[8%] w-[100%]">
       <Image
-        // src="https://user-images.githubusercontent.com/77664153/257346453-d67a11e6-d931-4916-b70c-b16992b05322.png"
-        // src="https://user-images.githubusercontent.com/77664153/256884639-d6d1c43e-bd5f-4c05-b8ea-857fa5087abc.png"
         src={img}
         width={0}
         height={0}
