@@ -60,7 +60,7 @@ const ContactForm = () => {
               we will get back to you.
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center bg-accent2Light w-[90%] h-[53%] rounded-xl">
+          <div className="flex flex-col items-center justify-center bg-accent2Light w-[90%] h-[53%] rounded-xl pt-4">
             <h2>Hours Of Operation</h2>
             <ul className="text-center text-xl mb-10">
               <li>Monday - Thursday: 8am - 4pm</li>
