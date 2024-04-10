@@ -8,30 +8,21 @@ import { GrMapLocation } from "react-icons/gr";
 const Footer = () => {
   return (
     <>
-      {/* <div className="bg-black h-[20vh] flex py-2">
-        <h1 className="text-white w-[100%]">Footer</h1>
-
-        <div className="flex flex-col justify-center w-[12%]">
-          <Image className="flex pb-2"
-          src="/images/made-in-canada.png" width={137} height={75} />
-          <div className="flex text-white text-xs lg:text-sm text-center font-fancy w-[100%]">MADE IN CANADA</div>
-        </div>
-
-      </div> */}
-
-      <div className="flex flex-col items-center bg-black h-[15%] w-[100%]">
-        <h4 className="text-white text-xl tracking-wider font-banner font-thin text-center py-4">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-between bg-black h-[15%] lg:h-[100px] w-[100%] z-[100]">
+        <div className="lg:w-[75%]">
+        <h4 className="text-white text-xl lg:text-2xl tracking-wider font-banner font-thin text-center lg:text-left py-4 lg:pt-1 lg:pb-2 lg:px-4">
           We Ship Worldwide! Contact Us Today:
         </h4>
-        <div>
-          <ul className="text-white flex flex-col md:flex-row md:w-[100%] text-left w-[100%]">
-            <li className="flex items-center z-40">
+          <ul className="text-white flex flex-col md:flex-row  pl-[12%] lg:pl-4 md:pl-0 text-left w-[100%] md:w-[100%]">
+            <li className="flex items-center">
               <GiRotaryPhone size={30} />{" "}
-              <p className="pl-2 md:pr-6 text-sm">(604) 420 3731 / 1 (877) 420 3731</p>
+              <p className="pl-2 md:pr-6 lg:pr-12 text-sm">
+                (604) 420 3731 / 1 (877) 420 3731
+              </p>
             </li>
             <li className="flex items-center">
               <IoIosMail size={30} />
-              <p className="pl-2 md:pr-6 text-sm">info@metaldist.com</p>
+              <p className="pl-2 md:pr-6 lg:pr-12 text-sm">info@metaldist.com</p>
             </li>
             <li className="flex items-center">
               <TbMap2 size={30} />
@@ -42,14 +33,14 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex justify-center items-center w-[25%] py-2.5">
+        <div className="flex justify-center items-center lg:justify-end w-[25%] lg:w-[20%] py-2.5 lg:pr-4">
           <Image
             className="flex pr-2"
             src="/images/made-in-canada.png"
             width={137}
             height={75}
           />
-          <div className="flex text-white text-xs lg:text-sm text-left text-nowrap font-fancy w-[100%]">
+          <div className="flex text-white text-xs lg:text-base text-left font-fancy w-[100%] lg:pl-2">
             MADE IN CANADA
           </div>
         </div>

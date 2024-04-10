@@ -5,7 +5,7 @@ const Technology = () => {
   return (
     <div>
       <Hero2
-        heading={"OUR EQUIPMENT"}
+        heading={"OUR TECHNOLOGY"}
         message={
           "We have top of the line CNC machines and a fully equippped machine shop to get you from start to finish"
         }
@@ -13,7 +13,7 @@ const Technology = () => {
       />
 
       <div className="flex flex-col items-center mt-[150px]">
-        <h1 className="text-md mb-8 text-center">CNC Milling Machines</h1>
+        <h1 className="text-md mb-8 text-center">CNC Milling</h1>
 
         <div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] border-y-[1.5px] border-black w-[90%] lg:w-[68%]">
           <div className="w-[70%] flex flex-col items-center md:items-start">
@@ -53,7 +53,7 @@ const Technology = () => {
           </ul>
         </div>
 
-        <h1 className="text-md mt-8 mb-8 text-center">CNC LATHES</h1>
+        <h1 className="text-md mt-8 mb-8 text-center">CNC TURNING</h1>
 
         <div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] border-y-[1.5px] border-black w-[90%] lg:w-[68%]">
           <div className="w-[70%] flex flex-col items-center md:items-start">
@@ -109,7 +109,7 @@ const Technology = () => {
           </div>
 
           <ul className="list-none text-center md:text-left">
-            <li>SUPPORTEED FILES: STEP and 3MF</li>
+            <li>SUPPORTED FILES: STEP and 3MF</li>
             {/* <li>MAX LENGTH - 23.85&quot;</li>
             <li>CHUCK CAPACITY - 10&quot;</li>
             <li>MAX LOAD - 506 lbs</li> */}
