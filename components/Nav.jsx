@@ -72,9 +72,6 @@ const Nav = () => {
                 style={{ color: `${textColor}` }}
                 className=" z-40 fixed right-5 top-22 hidden md:flex md:relative h-9 text-xl"
               >
-                <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]">
-                  <Link href="/">Home</Link>
-                </li>
                 {/* 
             <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
               <Link href="/about">About Us</Link>
