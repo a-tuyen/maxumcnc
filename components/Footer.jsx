@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { GiRotaryPhone } from "react-icons/gi";
 import { TbMap2 } from "react-icons/tb";
 import { IoIosMail } from "react-icons/io";
@@ -11,7 +12,7 @@ const Footer = () => {
       <div className="flex flex-col lg:flex-row items-center lg:justify-between bg-black h-[15%] lg:h-[100px] w-[100%] z-[100]">
         <div className="lg:w-[75%]">
         <h4 className="text-white text-xl lg:text-2xl tracking-wider font-banner font-thin text-center lg:text-left py-4 lg:pt-1 lg:pb-2 lg:px-4">
-          We Ship Worldwide! Contact Us Today:
+        <Link href="/contact">We Ship Worldwide! Contact Us Today:</Link>
         </h4>
           <ul className="text-white flex flex-col md:flex-row  pl-[12%] lg:pl-4 md:pl-0 text-left w-[100%] md:w-[100%]">
             <li className="flex items-center">
