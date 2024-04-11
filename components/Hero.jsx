@@ -5,7 +5,7 @@ import Home from "@app-delete/page";
 
 const Hero = ({ heading, message, img }) => {
   return (
-    <div className="relative flex flex-col items-center text-right mt-[-130px] w-[100%]">
+    <div className="relative flex flex-col items-center text-right w-[100%]">
       <Image
         src={img}
         width={1000}
