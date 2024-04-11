@@ -1,14 +1,14 @@
 "use client";
 
 import ContactForm from "@components/ContactForm";
-import Hero2 from "@components/Hero2";
+import Hero from "@components/Hero";
 
 const Home = () => {
   return (
     <>
-      <Hero2
+      <Hero
         heading={"PRECISION CNC MACHINING"}
-        message={"Specializing in Lead (Pb), Zinc (Zn) and Aluminum (Al)"}
+        message={"Specializing in Lead (Pb), Zinc (Zn), Aluminum (Al) and Steel"}
         img={"/images/maxum-home.png"}
       />
 

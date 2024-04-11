@@ -1,11 +1,11 @@
 import ContactForm from "@components/ContactForm";
-import Hero2 from "@components/Hero2";
+import Hero from "@components/Hero";
 import Image from "next/image";
 
 const contact = () => {
   return (
     <div className="flex flex-col items-center">
-       <Hero2
+       <Hero
       heading={"CONTACT US"}
       message={"We are always ready and willing to help you out with your next project"}
       img={"/images/maxum-process-tall.png"} />

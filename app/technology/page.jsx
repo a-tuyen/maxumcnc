@@ -1,10 +1,10 @@
 import React from "react";
-import Hero2 from "@components/Hero2";
+import Hero from "@components/Hero";
 
 const Technology = () => {
   return (
     <div>
-      <Hero2
+      <Hero
         heading={"OUR TECHNOLOGY"}
         message={
           "We have top of the line CNC machines and a fully equipped machine shop to get you from start to finish"

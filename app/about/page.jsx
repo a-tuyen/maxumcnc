@@ -1,10 +1,10 @@
 import React from 'react'
-import Hero2 from "@components/Hero2";
+import Hero from "@components/Hero";
 
 const About = () => {
   return (
     <>
-          <Hero2
+          <Hero
       heading={"ABOUT US"}
       message={"Commited to providing Excellence and Quality"}
       img={"/images/maxum-home.png"} />

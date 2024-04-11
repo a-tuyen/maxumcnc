@@ -1,10 +1,10 @@
 import React from 'react'
-import Hero2 from "@components/Hero2";
+import Hero from "@components/Hero";
 
 const Process = () => {
   return (
     <>
-           <Hero2
+           <Hero
       heading={"OUR PROCESS"}
       message={"How to get started with us"}
       img={"/images/maxum-process-tall.png"} />
