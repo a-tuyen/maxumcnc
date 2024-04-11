@@ -13,7 +13,7 @@ const Hero = ({ heading, message, img }) => {
         style={{ objectFit: "cover" }}
         className="z[0] w-screen h-screen"
       />
-      <div className="absolute top-0 md:top-0 flex flex-col items-center bg-black/30 text-white text-center z-[50] py-8 px-[75px] md:px-[250px] w-full h-[98%]">
+      <div className="absolute top-0 md:top-0 flex flex-col items-center bg-black/30 text-white text-center z-[50] py-8 px-[75px] md:px-[250px] w-screen h-screen">
         <div className="absolute top-[35%]">
           <h1 className="text-white font-boldHeading text-6xl tracking-wider top-[30%] z-[20]">
             {heading}
