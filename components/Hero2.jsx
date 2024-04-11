@@ -3,19 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 import Home from "@app-delete/page";
 
-const Hero2 = ({heading, message, img}) => {
+const Hero2 = ({ heading, message, img }) => {
   return (
-    <div className="flex flex-col items-center text-right mt-[15%] md:mt-[10%] lg:mt-[8%] w-[100%]">
+    <div className="relative flex flex-col items-center text-right mt-[-130px] w-[100%]">
       <Image
         src={img}
-        width={0}
-        height={0}
-        fill={true}
-        sizes="100vw"
+        width={1000}
+        height={800}
         style={{ objectFit: "cover" }}
-        className="z[0]"
+        className="z[0] w-screen h-screen"
       />
-      <div className="flex flex-col items-center bg-black/30 text-white text-center z-[50] py-8 px-[75px] md:px-[250px] w=full">
+      <div className="absolute top-[30%] md:top-[40%] flex flex-col items-center bg-black/30 text-white text-center z-[50] py-8 px-[75px] md:px-[250px] w-full">
         <h1 className="text-white font-boldHeading text-6xl tracking-wider top-[30%] z-[20]">
           {heading}
         </h1>
