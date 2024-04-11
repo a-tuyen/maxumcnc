@@ -10,7 +10,7 @@ import Image from "next/image";
 const Nav = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
-  const [textColor, setTextColor] = useState("white");
+  const [textColor, setTextColor] = useState("transparent");
   const [logoDark, setLogoDark] = useState(false);
 
   const handleNav = () => {
@@ -19,16 +19,16 @@ const Nav = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if (window.scrollY >= 450) {
+      if (window.scrollY >= 100) {
         // setColor("#ffffff");
         setColor("#000000");
         // setTextColor("#52525b");
         setTextColor("#ffffff");
         // setLogoDark(true);
       } else {
-        setColor("rgba(0, 0, 0, 0.2)");
+        setColor("rgba(0, 0, 0, 0)");
         // setColor("#000000");
-        setTextColor("#d4d4d8");
+        setTextColor("rgba(0, 0, 0, 0)");
         // setLogoDark(false);
       }
     };
