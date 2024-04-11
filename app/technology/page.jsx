@@ -7,12 +7,12 @@ const Technology = () => {
       <Hero2
         heading={"OUR TECHNOLOGY"}
         message={
-          "We have top of the line CNC machines and a fully equippped machine shop to get you from start to finish"
+          "We have top of the line CNC machines and a fully equipped machine shop to get you from start to finish"
         }
         img={"/images/maxum-tech-tall.png"}
       />
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mt-[5vh]">
         <h1 className="text-md mb-8 text-center">CNC Milling</h1>
 
         <div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] border-y-[1.5px] border-black w-[90%] lg:w-[68%]">

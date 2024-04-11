@@ -10,7 +10,7 @@ const contact = () => {
       message={"We are always ready and willing to help you out with your next project"}
       img={"/images/maxum-process-tall.png"} />
 
-      <div className="w-full mt-[200px] md:mt-[250px]">
+      <div className="w-full">
 
         <ContactForm />
 

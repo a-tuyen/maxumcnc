@@ -11,8 +11,6 @@ const Home = () => {
         message={"Specializing in Lead (Pb), Zinc (Zn) and Aluminum (Al)"}
         img={"/images/maxum-home.png"}
       />
-      <div className="h-[30vh]">
-      </div>
 
     </>
   );
