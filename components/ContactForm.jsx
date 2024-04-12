@@ -16,9 +16,9 @@ const ContactForm = () => {
               action="/success"
               method="post"
               data-netlify="true"
-              data-netlify-honeypot="bot-field"
+              // data-netlify-honeypot="bot-field"
             >
-              <input className="hidden" name="bot-field" />
+              {/* <input className="hidden" name="bot-field" /> */}
               <input type="hidden" name="form-name" value="Maxum-Contact" />
               <div>
                 <label htmlFor="name">Name *</label>
