@@ -26,7 +26,7 @@ const contact = () => {
           </div>
           <div className="flex flex-col items-center justify-center bg-accent2Light w-[90%] h-[53%] rounded-xl pt-4">
             <h2>Hours Of Operation</h2>
-            <ul className="text-center text-xl mb-10">
+            <ul className="text-center text-xl my-4">
               <li>Monday - Thursday: 8am - 4pm</li>
               <li>Friday: 8am - 3pm </li>
               <li>Saturday - Sunday: Closed</li>
