@@ -15,10 +15,10 @@ const Hero = ({ heading, message, img }) => {
       />
       <div className="absolute top-0 md:top-0 flex flex-col items-center bg-black/30 text-white text-center z-[50] py-8 px-[75px] md:px-[250px] w-screen h-screen">
         <div className="absolute top-[35%]">
-          <h1 className="text-white font-boldHeading text-6xl tracking-wider top-[30%] z-[20]">
+          <h1 className="text-white font-boldHeading text-6xl tracking-wider top-[30%] px-2 z-[20]">
             {heading}
           </h1>
-          <p className="py-6 font-heading text-center text-2xl md:text-3xl text-white font-light z-[10]">
+          <p className="py-6 px-2 font-heading text-center text-2xl md:text-3xl text-white font-light z-[10]">
             {message}
           </p>
         </div>

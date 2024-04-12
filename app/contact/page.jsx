@@ -7,7 +7,7 @@ const contact = () => {
     <div className="flex flex-col items-center">
        <Hero
       heading={"CONTACT US"}
-      message={"We are always ready and willing to help you out with your next project"}
+      message={"We are always ready and willing to help you with your next project"}
       img={"/images/maxum-process-tall.png"} />
 
       <div className="w-full">
