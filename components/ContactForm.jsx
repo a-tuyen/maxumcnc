@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContactForm = () => {
   return (
-    // <div className="flex flex-col items-center bg-red-500">
+
     <>
       <div className="flex flex-col-reverse md:flex-row justify-start w-full">
         <div className="flex flex-col justify-center items-center text-black my-10 w-full">
@@ -18,7 +18,7 @@ const ContactForm = () => {
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
-              <input className="hidden" name="bot-field" />
+              <input className="" name="bot-field" />
               <input type="hidden" name="form-name" value="Maxum-Contact" />
               <div>
                 <label htmlFor="name">Name *</label>
