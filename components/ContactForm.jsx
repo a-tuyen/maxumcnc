@@ -50,26 +50,6 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-start w-full mt-20 md:mt-40">
-          <div className="flex flex-col b items-center justify-center">
-            <p className="mb-10 md:mb-6 text-3xl">
-              We would love to hear from you!
-            </p>
-            <p className="text-xl text-center mb-10 md:mb-28 w-[80%]">
-              Send us a message or contact us via one of the methods below and
-              we will get back to you.
-            </p>
-          </div>
-          <div className="flex flex-col items-center justify-center bg-accent2Light w-[90%] h-[53%] rounded-xl pt-4">
-            <h2>Hours Of Operation</h2>
-            <ul className="text-center text-xl mb-10">
-              <li>Monday - Thursday: 8am - 4pm</li>
-              <li>Friday: 8am - 3pm </li>
-              <li>Saturday - Sunday: Closed</li>
-              <li>Stat Holidays: Closed</li>
-            </ul>
-          </div>
-        </div>
       </div>
     </>
   );
