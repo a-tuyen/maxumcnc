@@ -7,7 +7,7 @@ const Technology = () => {
       <Hero
         heading={"OUR TECHNOLOGY"}
         message={
-          "We have top of the line CNC machines and a fully equipped machine shop to get you from start to finish"
+          "We have top of the line CNC machines and a fully equipped machine shop"
         }
         img={"/images/maxum-tech-tall.png"}
       />
@@ -26,7 +26,7 @@ const Technology = () => {
             </div>
           </div>
 
-          <ul className="list-none text-center md:text-left">
+          <ul className="list-none text-center md:text-left whitespace-nowrap">
             <li>X - AXIS TRAVEL - 31.5&quot;</li>
             <li>Y - AXIS TRAVEL - 15.75&quot;</li>
             <li>Z - AXIS TRAVEL - 18.9&quot;</li>
@@ -45,7 +45,7 @@ const Technology = () => {
             </div>
           </div>
 
-          <ul className="list-none text-center md:text-left">
+          <ul className="list-none text-center md:text-left whitespace-nowrap">
             <li>X - AXIS TRAVEL - 30&quot;</li>
             <li>Y - AXIS TRAVEL - 16&quot;</li>
             <li>Z - AXIS TRAVEL - 20&quot;</li>
@@ -66,7 +66,7 @@ const Technology = () => {
             </div>
           </div>
 
-          <ul className="list-none text-center md:text-left">
+          <ul className="list-none text-center md:text-left whitespace-nowrap">
             <li>MAX TURNING DIAMETER - 16.53&quot;</li>
             <li>MAX LENGTH - 47.24&quot;</li>
             <li>CHUCK CAPACITY - 10&quot;</li>
@@ -86,7 +86,7 @@ const Technology = () => {
             </div>
           </div>
 
-          <ul className="list-none text-center md:text-left">
+          <ul className="list-none text-center md:text-left whitespace-nowrap">
             <li>MAX TURNING DIAMETER - 13.77&quot;</li>
             <li>MAX LENGTH - 23.85&quot;</li>
             <li>CHUCK CAPACITY - 10&quot;</li>
@@ -95,26 +95,46 @@ const Technology = () => {
         </div>
 
         <h1 className="py-8 text-center">SOFTWARE</h1>
-        {/* <h2 className="flex flex-col md:flex-row md:items-center pb-3 text-center">
-          Autodesk<span className="font-extralight pl-2">Fusion 360</span>
-        </h2> */}
 
-<div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] mb-4 border-y-[1.5px] border-black w-[90%] lg:w-[68%]">
+        <div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] mb-4 border-y-[1.5px] border-black w-[90%] lg:w-[68%]">
           <div className="w-[70%] flex flex-col items-center md:items-start">
             <h2 className="flex flex-col md:flex-row md:items-center pb-3 text-center">
               Autodesk<span className="font-extralight pl-2">Fusion 360</span>
             </h2>
+            <div className="tracking-wide italic text-center w-[70%] pb-2 md:pb-0 md:text-left"></div>
+          </div>
+
+          <ul className="list-none text-center md:text-left whitespace-nowrap">
+            <li>SUPPORTED FILES: STEP and 3MF</li>
+          </ul>
+        </div>
+
+        <h1 className="py-8 text-center">FULLY EQUIPPED MACHINE SHOP</h1>
+
+        <div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] mb-4 border-y-[1.5px] border-black w-[90%] lg:w-[68%]">
+          <div className="w-[70%] flex flex-col items-center md:items-start">
+            <h2 className="flex flex-col md:flex-row md:items-center pb-3 text-center">
+              MANUAL<span className="font-extralight pl-2">MACHINES</span>
+            </h2>
             <div className="tracking-wide italic text-center w-[70%] pb-2 md:pb-0 md:text-left">
+              We have a fully equipped manual machine shop so we can get you
+              from protoype to finished product
             </div>
           </div>
 
-          <ul className="list-none text-center md:text-left">
-            <li>SUPPORTED FILES: STEP and 3MF</li>
-            {/* <li>MAX LENGTH - 23.85&quot;</li>
-            <li>CHUCK CAPACITY - 10&quot;</li>
-            <li>MAX LOAD - 506 lbs</li> */}
+          <ul className="list-none text-center md:text-left whitespace-nowrap">
+            <li className="underline">TYPES OF EQUIPMENT WE HAVE:</li>
+            <li>DRILL PRESSES</li>
+            <li>METAL BAND SAWS</li>
+            <li>MANUAL LATHES</li>
+            <li>BELT SANDERS</li>
+            <li>RADIAL SAWS</li>
+            <li>ROLLING MILL</li>
+            <li>GRINDERS</li>
+            <li>AND MANY MORE</li>
           </ul>
         </div>
+        
       </div>
     </div>
   );

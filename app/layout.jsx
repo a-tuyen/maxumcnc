@@ -4,7 +4,7 @@ import Footer from "@components/Footer";
 
 export const metadata = {
   title: "Maxum CNC",
-  description: "Precision Machining",
+  description: "Manufacturer of high precision metal components",
   icons: {
     icon: "/images/maxum-favicon.png",
   },
