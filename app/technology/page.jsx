@@ -134,7 +134,28 @@ const Technology = () => {
             <li>AND MANY MORE</li>
           </ul>
         </div>
-        
+
+        <h1 className="py-8 text-center">DIE CASTING & FABRICATION</h1>
+
+        <div className="flex flex-col items-center md:flex-row md:justify-start py-8 md:px-[5%] mb-4 border-y-[1.5px] border-black w-[90%] lg:w-[68%]">
+          <div className="w-[70%] flex flex-col items-center md:items-start">
+            <h2 className="flex flex-col md:flex-row md:items-center pb-3 text-center">
+              AUTOMATED<span className="font-extralight pl-2">& MANUAL</span>
+            </h2>
+            <div className="tracking-wide italic text-center w-[70%] pb-2 md:pb-0 md:text-left">
+  We are also a metal fabrication shop and have a variety of machines and equipment for automated and manual fabrication processes.
+            </div>
+          </div>
+
+          <ul className="list-none text-center md:text-left whitespace-nowrap">
+            <li className="underline">TYPES OF EQUIPMENT WE HAVE:</li>
+            <li>SEVERAL DIE CASTING MACHINES</li>
+            <li>LEAD EXTRUDER</li>
+            <li>LEAD (PB) ROLLING MILL</li>
+            <li>PUNCH PRESS</li>
+
+          </ul>
+        </div>
       </div>
     </div>
   );
