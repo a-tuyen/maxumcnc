@@ -28,7 +28,7 @@ const Home2 = () => {
       </button> */}
 
       <div className="flex flex-col md:flex-row justify-center items-center bg-accent1 px-1 md:py-4">
-        <h1 className="font-banner text-4xl font-light mt-8 md:mt-0 text-center text-white">
+        {/* <h1 className="font-banner text-4xl font-light mt-8 md:mt-0 text-center text-white">
           Celebrating
         </h1>
         <h1 className="font-heading text-4xl bold font-medium text-accent2 my-4 md:my-0 md:px-3">
@@ -36,13 +36,24 @@ const Home2 = () => {
         </h1>
         <h1 className="font-banner text-4xl font-light mb-8 md:mb-0 text-center text-white">
           in the Metal Fabrication Industry
+        </h1> */}
+                <h1 className="font-heading text-4xl bold font-medium text-accent2 my-4 md:my-0 md:px-3">
+         Celebrating 75 years of
         </h1>
+        <ul>
+          <li className="font-serif bold italic text-white text-5xl">Metal Fabrication</li>
+          <li className="font-serif bold italic text-white text-5xl">Excellence</li>
+          <li className="font-serif bold italic text-white text-5xl">Quality</li>
+          <li className="font-serif bold italic text-white text-5xl">Customer Service</li>
+        </ul>
+
       </div>
       <div>
         <div>
           Maxum CNC is a brand of Metal Distributors Ltd and is a trusted
           manufacturer for intricate, detailed and complex metal components.
         </div>
+        <h2>We can take you from prototype to production</h2>
         <h2>What Makes Us Different?</h2>
       </div>
     </>

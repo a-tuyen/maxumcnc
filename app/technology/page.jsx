@@ -129,7 +129,6 @@ const Technology = () => {
             <li>MANUAL LATHES</li>
             <li>BELT SANDERS</li>
             <li>RADIAL SAWS</li>
-            <li>ROLLING MILL</li>
             <li>GRINDERS</li>
             <li>AND MANY MORE</li>
           </ul>
@@ -150,8 +149,8 @@ const Technology = () => {
           <ul className="list-none text-center md:text-left whitespace-nowrap">
             <li className="underline">TYPES OF EQUIPMENT WE HAVE:</li>
             <li>SEVERAL DIE CASTING MACHINES</li>
-            <li>LEAD EXTRUDER</li>
-            <li>LEAD (PB) ROLLING MILL</li>
+            <li>LEAD (Pb) EXTRUDER</li>
+            <li>LEAD (Pb) ROLLING MILL</li>
             <li>PUNCH PRESS</li>
 
           </ul>
