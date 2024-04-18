@@ -22,10 +22,40 @@ module.exports = {
         accent1Light: '#8cb3cb',
         accent2: '#FF924E',
         accent2Light: '#ffdec9'
-
-
-
     },
+
+    animation: {
+      titleflip: 'titleflip 5s ease-in-out infinite',
+    },
+
+    keyframes: {      
+      titleflip: {
+        '0% 20%': {
+          transform: 'translate(0px, -12.50em)'
+        },
+        '40%': {
+          transform: 'translate(0px, -9.375em)'
+        },
+        // '0% 20%': {
+        //   transform: 'translate(0px, -12.50em)',
+        // },
+        // '20% 40%': {
+        //   transform: 'translate(0px, -9.375em)',
+        // },
+        // '40% 60%': {
+        //   transform: 'translate(0px, -6.44em)',
+        // },
+        // '60% 80%': {
+        //   transform: 'translate(0px, -3.44em)',
+        // },
+        // '80% 100%': {
+        // transform: 'translate(0px, -0.315em)',
+        // },
+        // '100% 0%': {
+        //   transform: 'translate(0px, -12.50em)',
+        // }
+      }
+  }
   },
 },
   plugins: [],

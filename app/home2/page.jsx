@@ -37,15 +37,39 @@ const Home2 = () => {
         <h1 className="font-banner text-4xl font-light mb-8 md:mb-0 text-center text-white">
           in the Metal Fabrication Industry
         </h1> */}
-                <h1 className="font-heading text-4xl bold font-medium text-accent2 my-4 md:my-0 md:px-3">
-         Celebrating 75 years of
+        <h1 className="font-heading text-4xl bold font-medium text-accent2 my-4 md:my-0 md:px-3">
+          Celebrating 75 years of
         </h1>
-        <ul>
-          <li className="font-serif bold italic text-white text-5xl">Metal Fabrication</li>
-          <li className="font-serif bold italic text-white text-5xl">Excellence</li>
-          <li className="font-serif bold italic text-white text-5xl">Quality</li>
-          <li className="font-serif bold italic text-white text-5xl">Customer Service</li>
+        <ul className="animate-titleflip">
+          <li className="font-serif bold italic text-white text-5xl">
+            Metal Fabrication
+          </li>
+          <li className="font-serif bold italic text-white text-5xl">
+            Excellence
+          </li>
+          <li className="font-serif bold italic text-white text-5xl">
+            Quality
+          </li>
+          <li className="font-serif bold italic text-white text-5xl">
+            Customer Service
+          </li>
+          <li className="font-serif bold italic text-white text-5xl">
+            Precision
+          </li>
         </ul>
+
+        <h4 class="wordCarousel">
+          <span>Word swipe animation: </span>
+          <div>
+            <ul class="flip5">
+              <li>Oh My!</li>
+              <li>Swoosh</li>
+              <li>Cool</li>
+              <li>Squirrel🐿</li>
+              <li>Rad</li>
+            </ul>
+          </div>
+        </h4>
 
       </div>
       <div>
