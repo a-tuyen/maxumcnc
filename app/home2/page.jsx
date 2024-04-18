@@ -37,11 +37,11 @@ const Home2 = () => {
         <h1 className="font-banner text-4xl font-light mb-8 md:mb-0 text-center text-white">
           in the Metal Fabrication Industry
         </h1> */}
-        <div className="flex h-12 overflow-hidden">
+        <div className="flex h-[3.5rem] border-2 border-black">
         <h1 className="flex items-center font-heading text-4xl bold font-medium text-accent2 my-4 md:my-0 md:px-3">
           Celebrating 75 years of
         </h1>
-        <ul className="animate-titleflip">
+        <ul className="leading-loose">
           <li className="font-serif bold italic text-white text-5xl">
             Metal Fabrication
           </li>
