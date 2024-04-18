@@ -36,6 +36,9 @@ module.exports = {
         '40%': {
           transform: 'translate(0px, -9.375em)'
         },
+                '40% 60%': {
+          transform: 'translate(0px, -6.44em)',
+        },
         // '0% 20%': {
         //   transform: 'translate(0px, -12.50em)',
         // },
