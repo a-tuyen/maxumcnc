@@ -38,10 +38,10 @@ const Home2 = () => {
           in the Metal Fabrication Industry
         </h1> */}
         <div className="flex flex-col items-center justify center lg:flex-row h-[8.5rem] lg:h-[3.5rem]">
-        <h1 className="flex items-center font-heading text-4xl bold font-medium text-accent2 my-4 md:my-0 md:px-3">
+        <h1 className="flex items-center font-heading text-4xl bold font-medium text-accent2 my-4 md:my-0 md:px-4">
           Celebrating 75 years of
         </h1>
-        <div className="overflow-hidden h-[3.25rem]">
+        <div className="overflow-hidden h-[3.25rem] mt-4 lg:mt-0">
         <ul className="animate-titleflip text-center lg:text-left">
           <li className="font-serif bold italic text-white text-5xl">
           Precision 
@@ -55,7 +55,7 @@ const Home2 = () => {
           <li className="font-serif bold italic text-white text-5xl mt-1">
           Excellence 
           </li>
-          <li className="font-serif bold italic text-white text-4xl md:text-5xl text-nowrap mt-1">
+          <li className="font-serif bold italic text-white text-4xl md:text-5xl text-nowrap mt-1              ">
             Metal Fabrication
           </li>
         </ul>
