@@ -31,10 +31,10 @@ module.exports = {
     keyframes: {      
       titleflip: {
         '0%': {
-          transform: 'translate(0px, -12.5em)'
+          transform: 'translate(0px, -13em)'
         },
         '20%': {
-          transform: 'translate(0px, -9.3em)'
+          transform: 'translate(0px, -9.8em)'
         },
         '40%': {
           transform: 'translate(0px, -6.2em)'
