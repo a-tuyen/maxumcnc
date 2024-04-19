@@ -25,29 +25,33 @@ module.exports = {
     },
 
     animation: {
-      titleflip: 'titleflip 7s ease-in-out infinite',
+      titleflip: 'titleflip 10s ease-in-out infinite',
     },
 
     keyframes: {      
       titleflip: {
         '0%': {
-          transform: 'translate(0px, -12em)'
+          transform: 'translate(0px, -12.5em)'
         },
         '20%': {
-          transform: 'translate(0px, -8.75em)'
+          transform: 'translate(0px, -9.3em)'
         },
         '40%': {
-          transform: 'translate(0px, -5.55em)'
+          transform: 'translate(0px, -6.2em)'
         },
         '60%': {
-          transform: 'translate(0px, -2.5em)',
+          transform: 'translate(0px, -2.8em)',
         },
         '80%': {
-          transform: 'translate(0px, -0.315em)',
+          transform: 'translate(0px, 0em)',
         },
-        '100% 0%': {
-          transform: 'translate(0px, -12em)',
-        },
+
+        // '80%': {
+        //   transform: 'translate(0px, -0.315em)',
+        // },
+        // '100%': {
+        //   transform: 'translate(0px, -12em)',
+        // },
         // '0% 20%': {
         //   transform: 'translate(0px, -12.50em)',
         // },
