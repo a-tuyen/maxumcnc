@@ -67,6 +67,20 @@ const Home2 = () => {
         </div>
         <h2>We can take you from prototype to production</h2>
         <h2>What Makes Us Different?</h2>
+        <h2>Services</h2>
+        <p>At Maxum CNC we offer more than just CNC services. Our team of skilled professionals are well versed in all aspects of the metal fabrication industry. </p>
+        <ul>
+          <li>Vertical CNC Milling</li>
+          <li>CNC Turning</li>
+          <li>Design for Manufacturability</li>
+          <li>Assembly</li>
+          <li>Parts Finishing</li>
+          <li>Welding</li>
+          <li>Bending</li>
+          <li>Die Casting</li>
+          <li>Extruding</li>
+          <li>Plasma Cutting</li>
+        </ul>
       </div>
     </>
   );
