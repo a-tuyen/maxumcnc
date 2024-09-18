@@ -34,15 +34,15 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex justify-center items-center lg:justify-end w-[25%] lg:w-[20%] py-2.5 lg:pr-4">
+        <div className="flex justify-center lg:justify-end items-center w-[100%] py-2.5">
           <Image
             className="flex pr-2"
-            src="/images/made-in-canada.png"
-            width={137}
-            height={75}
+            src="/images/made-in-canada-maxum.png"
+            width={80}
+            height={50}
           />
-          <div className="flex text-white text-xs lg:text-base text-left font-fancy w-[100%] lg:pl-2">
-            MADE IN CANADA
+          <div className="flex flex-col text-white text-s lg:text-base text-left font-fancy w-[12%] lg:pl-2">
+            <p>PROUDLY</p> <p>MADE IN</p> <p>CANADA</p>
           </div>
         </div>
       </div>
