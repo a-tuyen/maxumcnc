@@ -41,7 +41,7 @@ const Footer = () => {
             width={80}
             height={50}
           />
-          <div className="flex flex-col text-white text-s lg:text-base text-left font-fancy w-[12%] lg:pl-2">
+          <div className="flex flex-col text-white text-s lg:text-base text-left font-fancy w-[25%] lg:w-[15%] lg:pl-2">
             <p>PROUDLY</p> <p>MADE IN</p> <p>CANADA</p>
           </div>
         </div>
